@@ -15,7 +15,7 @@ const Checkout = () => {
     }
     setOrderdetails(orderInfo);
     
-    fetch("http://localhost:5055/addOrder",{
+    fetch("https://lit-escarpment-79340.herokuapp.com/addOrder",{
       method: "POST",
       headers: { 'Content-Type': 'application/json'},
       body: JSON.stringify(orderInfo)

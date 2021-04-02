@@ -5,8 +5,10 @@ import ImageCard from "../ImageCard/ImageCard";
 const Landing = () => {
   const [events, setEvents] = useState([]);
 
+  // https://lit-escarpment-79340.herokuapp.com/images
+
   useEffect(() => {
-    fetch("http://localhost:5055/images")
+    fetch("https://lit-escarpment-79340.herokuapp.com/images")
       .then((res) => res.json())
       .then((data) => {
         setEvents(data);

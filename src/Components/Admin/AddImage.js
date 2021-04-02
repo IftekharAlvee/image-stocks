@@ -13,7 +13,7 @@ const AddImage = () => {
           imageURL: imageURL,
           price: data.price
       }
-      const url = "http://localhost:5055/addImage";
+      const url = "https://lit-escarpment-79340.herokuapp.com/addImage";
       fetch(url,{
           method: "POST",
           headers: {

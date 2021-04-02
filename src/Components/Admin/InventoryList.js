@@ -6,7 +6,7 @@ const InventoryList = (props) => {
 
     const deleteImage = (id) => {
         console.log(id);
-        fetch(`http://localhost:5055/deleteImage/${id}`,{
+        fetch(`https://lit-escarpment-79340.herokuapp.com/deleteImage/${id}`,{
             method: 'DELETE'
         })
         .then(res=> res.json())
