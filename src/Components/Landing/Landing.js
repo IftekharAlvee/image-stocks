@@ -22,7 +22,7 @@ const Landing = () => {
         <Jumbotron>
           <h1>Hello!</h1>
           <p>
-            This is a Image stock website, Where you can upload your Image and 
+            This is an Image stock website, Where you can upload your Image and 
             sell your Image. You can also Buy Image.
           </p>
           
