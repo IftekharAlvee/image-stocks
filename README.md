@@ -1,7 +1,11 @@
-# project name: Image Stock
+# project name: <a href="https://image-stock-47213.web.app/">`Image Stock`</a>
 
-It's an image stock like pixeles, unsplash. 
- 
+## Live link:  <a href="https://image-stock-47213.web.app/">`Image Stock`</a>
+
+It's an image stock website like pixels, unsplash. 
+  
+  ## Author: Iftekharul Islam Alvee
+
  ## feature:
   1. You can add image to database.
   2. You can delete image from database.

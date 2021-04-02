@@ -11,7 +11,7 @@ import PrivateRoute from "../PrivateRoute/PrivateRoute";
 export const UserContext = createContext();
 const Home = () => {
 
-    
+
 
     const [loggedInUser, setLoggedInUser] = useState({
         name: "" ,
@@ -24,7 +24,7 @@ const Home = () => {
       <div>
         <Router>
           <div>
-              <p>Name: {loggedInUser.email}</p>
+              
             <Header></Header>
 
             <Switch>
